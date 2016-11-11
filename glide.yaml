@@ -1,0 +1,15 @@
+package: github.com/RackHD/voyager-rackhd-service
+import:
+- package: github.com/RackHD/voyager-utilities
+  subpackages:
+  - amqp
+  - models
+  - random
+- package: github.com/streadway/amqp
+testImport:
+- package: github.com/gorilla/mux
+  version: ~1.1.0
+- package: github.com/onsi/ginkgo
+  version: ~1.2.0
+- package: github.com/onsi/gomega
+  version: ~1.0.0
